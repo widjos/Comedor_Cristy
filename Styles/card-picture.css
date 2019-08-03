@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+
+.GALERY
+{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: rgb(228, 229, 231);
+    
+}
+
+
+.card-picture {
+
+    display: block; 
+    margin: 50px;
+    padding: 25px 0px 25px 0px;
+    color: black;
+    background-color: white;
+    border: #ccc solid 1px;
+    float: left;
+  
+  
+    
+    
+   
+}  
+
+.botones-container{
+    
+    width: 100%;
+    position: relative;
+ 
+   
+    
+    
+
+
+}
+
+.card-picture .description
+{
+
+   display: block;
+   font-size: 15px;
+   text-align: justify;
+   padding: 20px;
+   color: black; 
+}
+
+.card-picture .card-title {
+    width: 100%;
+    font-size: 22px;
+    font-family: 'Courgette', cursive;
+    padding-bottom: 8px;
+    padding-left: 25px;
+}
+.linear-container 
+{
+  display: inline-flex;
+  width: 100%;   
+}
+
+
+
+
+.title-container
+{
+    display: inline-flex;
+  
+    font-size:  25px;
+    color : rgb(158, 158, 158);
+} 
+
+.card-picture h1{
+
+    position: relative;
+    text-align: center;
+    box-shadow: #ccc 0 1px ;
+    font-family: 'Courgette', cursive;
+}
+
+
+
+.card-picture:hover
+ {
+  border: solid grey 1px;
+
+
+
+}
+
+ img {
+
+    width: 100%;
+    height: auto;
+    transition: .2s;
+    
+
+
+}
+
+
+
+img:hover {
+
+    box-shadow: 1px  rgba(129, 128, 128, 0.562);
+
+}
+
+
+.botones {
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(255,255,255,.6);
+    -webkit-transition: all .3s ease;
+    -o-transition:  all .3s ease;
+    transition:  all .3s ease;
+    z-index: 2;
+         
+}
+
+
+
+
+.botones:hover {
+
+    cursor:pointer;
+    transform: scale(1.2,1.2);
+}
+
+.atras {
+    float: left;
+    left: 6%;
+    top: 50px;
+    
+   
+     
+   
+  
+    
+  
+}
+
+.adelante {
+    float: right;
+    right: 12%;
+    top: 150px;
+
+
+
+  
+   
+}
+
+@media only screen  and (max-width: 800px ) {
+    
+
+    .card-picture {
+
+        margin: 20px;
+        padding: 15px;
+
+    }
+
+    .linear-container 
+{
+  display: block;
+  width: 100%;    
+}
+
+
+
+}
+
+
+

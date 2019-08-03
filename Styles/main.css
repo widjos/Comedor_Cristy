@@ -1,0 +1,336 @@
+
+/* Current font families CAVEAT , LOBSTER ,   */
+
+@import url('https://fonts.googleapis.com/css?family=Caveat|Lobster+Two|Lora|Meera+Inimai|Shanti]Merriweather+Sans|Courgette|Dancing+Script&display=swap');
+
+
+
+
+html 
+{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+h2 {
+    margin: 0%;
+}
+
+#logo-container {
+
+  display: block;
+  text-align: center;
+
+}
+
+#logo1 {
+
+  height: auto;
+  width: 350px;
+
+}
+
+#logo2{
+
+  height: auto;
+  width: 120px;
+
+}
+
+#name-title {
+  font-family: 'Lora', serif;
+  color: rgb(105, 102, 102);
+  font-size: 10px;
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 0px; 
+
+}
+
+#title 
+{
+    padding-top: 5px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+#title2 
+{
+
+    display: block;
+
+}
+
+#nav_element {
+
+    display: inline-flex;
+    color: white;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px 20px;
+    text-align: center;
+   /* text-shadow: black 1px 0 5px; */
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+    
+  }
+
+ #nav_element:hover {
+
+  text-decoration: underline;
+
+
+
+ } 
+
+
+ .map iframe {
+
+ 
+  height: 400px;  /* The height is 400 pixels */
+  width: 100%; /* The width is the width of the web page */
+  border: 0 ;  
+ 
+ }
+
+ 
+
+  header{
+
+    position: sticky;
+    top: 0;
+
+  }
+
+  .navbar {
+    
+    position:relative;
+    width: 100%;
+    list-style-type: none;
+    padding: 5px 30px;
+    align-content: center;
+    text-align: center;
+    overflow: hidden;
+    background-color: rgb(255, 115, 0);
+    
+   
+  }
+
+ .navbar ul {
+    list-style-type: none;
+    position: relative; 
+    margin: 0%;
+    border: 0%;
+    overflow: hidden;
+    background-color: transparent;
+      
+  }
+
+
+.navbar li {
+
+    float: left;
+    padding-left: 15px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+   
+}
+
+.INFO {
+
+    background-image: url(../Pictures/im6.JPG) ;
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    height: 100%; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content: center;
+    
+
+}
+
+
+
+ #Info-text  {
+
+  font-family: 'Lora', serif;
+ 
+  margin: 300px 150px 300px 150px;
+  width: 80%;
+  height: auto;
+  font-size: 28px;
+  text-align: center;
+  color: white; 
+  display: inline-flexbox;
+  align-content: center;
+
+}
+
+#Info-item {
+
+  display: inline-block;
+  padding: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  align-content: center;
+  font-family: 'Merriweather Sans', bold;
+  border-right: white solid 1px;
+ 
+
+}
+
+.DESCRIPTION
+{
+  display: flex;
+  background-color: white;
+  color : black;
+
+
+}
+
+.DESCRIPTION div {
+
+    margin: 190px;
+   
+}
+
+.DESCRIPTION p {
+
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  text-align: center;
+  padding-left: 45px;
+  padding-right: 45px;
+ 
+
+}
+
+
+footer {
+
+  background-color: rgb(116, 112, 112);
+  color: white;
+  text-align: center;
+  padding: 2px;
+  font-family: 'Lora', serif;
+
+}
+
+.CONTACT {
+
+   display: inline-flexbox;
+   color: white;
+   align-content: center;
+   background-color: rgb(211, 54, 6);
+   padding : 90px 60px 200px 150px;
+   
+
+
+
+}
+
+.CONTACT h1 {
+
+  padding-bottom: 15px;
+  font-family: 'Shanti', sans-serif;
+
+}
+
+.CONTACT p {
+  border-right: black solid 2px;
+  padding-right: 15px;
+  align-content: center;
+  font-family: 'Meera Inimai', sans-serif;
+}
+
+#block-column {
+
+  display: inline-block;
+  max-block-size: 100%;
+  padding-left: 45px;
+  padding-right: 10px;
+  text-align: center;
+  font-size: 15px;
+  align-content: center;
+  
+
+
+}
+
+.WRAP-LINE {
+
+  display: inline-flex;
+  align-content: center;
+
+}
+
+#logo-button {
+
+  width: 100%;
+  height: auto;
+  align-content: center;
+
+}
+
+#logo-container {
+
+  width: 45px;
+  height: auto;
+
+}
+
+
+/* Display the css when the screen is less than 800px  */
+@media (max-width: 500px) 
+{
+
+
+
+.INFO #Info-text {
+
+  font-size: 10px;
+  margin: 50px;
+
+
+}
+
+#title 
+{
+font-size:  35px;
+
+}
+  
+.DESCRIPTION div {
+
+  margin: 40px 20px 40px 20px;
+ 
+
+}
+
+.DESCRIPTION p {
+
+  font-size: 10px;
+}
+
+
+.CONTACT p {
+
+  border-right: 0;
+}
+
+
+} 
