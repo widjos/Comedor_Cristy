@@ -75,8 +75,7 @@ h2 {
     display: inline-flex;
     color: white;
     font-family: 'Lora', serif;
-    font-weight: bold;
-    font-size: 15px;
+    font-weight: bold;  
     padding: 5px 20px;
     text-align: center;
    /* text-shadow: black 1px 0 5px; */
@@ -144,6 +143,7 @@ h2 {
     margin: 0;
     padding: 10px;
     border: 0;
+
    
 }
 
@@ -154,7 +154,7 @@ h2 {
   text-decoration: none;
   font-family: 'Lora', serif;
   font-style: oblique;
-  font-size: 21px;
+  font-size: 18px;
 }
 
 .navbar li a:hover {
@@ -312,7 +312,7 @@ footer {
 
 
 
-/* Display the css when the screen is less than 500px  */
+/* Display the css when the screen is less than 500px  */ 
 @media (max-width: 500px) 
 {
 
@@ -323,15 +323,12 @@ footer {
   
   }
 
+ 
+
 
   .navbar li a  {
-    padding-left: 5px; 
-    padding-right: 5px;
-    color: white;
-    text-decoration: none;
-    font-family: 'Lora', serif;
-    font-style: oblique;
-    font-size: 15px;
+    font-size: 12px;
+
   } 
 
 .INFO #Info-text {
@@ -352,12 +349,17 @@ font-size:  35px;
 
   margin: 40px 20px 40px 20px;
  
-
 }
 
 .DESCRIPTION p {
 
   font-size: 10px;
+}
+
+.CONTACT {
+
+  padding : 70px 50px 90px 90px;
+
 }
 
 .CONTACT h1 {
@@ -396,11 +398,7 @@ font-size:  35px;
   .navbar li a  {
     padding-left: 8px; 
     padding-right: 8px;
-    color: white;
-    text-decoration: none;
-    font-family: 'Lora', serif;
-    font-style: oblique;
-    font-size: 18px;
+    font-size: 14px;
   } 
 
 .INFO #Info-text {
@@ -429,6 +427,12 @@ font-size:  35px;
   font-size: 15px;
 }
 
+
+.CONTACT {
+
+  padding : 80px 60px 120px 120px;
+
+}
 
 .CONTACT h1 {
 
