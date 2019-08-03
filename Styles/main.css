@@ -347,13 +347,15 @@ font-size:  35px;
   
 .DESCRIPTION div {
 
-  margin: 40px 20px 40px 20px;
+  margin: 40px 20px 40px 40px;
+
  
 }
 
 .DESCRIPTION p {
 
   font-size: 7px;
+
 }
 
 .CONTACT {
@@ -418,6 +420,7 @@ font-size:  35px;
 .DESCRIPTION div {
 
   margin: 40px 40px 40px 40px;
+
  
 
 }
@@ -430,21 +433,21 @@ font-size:  35px;
 
 .CONTACT {
 
-  padding : 80px 60px 120px 120px;
+  padding : 80px 60px 60px 60px;
 
 }
 
 .CONTACT h1 {
 
   padding-bottom: 10px;
-  font-size: 15px;
+  font-size: 13px;
   font-family: 'Shanti', sans-serif;
 
 }
 
 .CONTACT p { 
   border-right: 0;
-  padding-right: 5px;
+  padding-right: 4px;
   align-content: center;
   font-family: 'Meera Inimai', sans-serif;
 }
