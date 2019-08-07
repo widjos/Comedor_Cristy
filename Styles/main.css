@@ -2,7 +2,7 @@
 /* Current font families CAVEAT , LOBSTER ,   */
 
 @import url('https://fonts.googleapis.com/css?family=Caveat|Lobster+Two|Lora|Meera+Inimai|Shanti]Merriweather+Sans|Courgette|Dancing+Script&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Acme|Amatic+SC&display=swap');
 
 
 
@@ -74,10 +74,7 @@ h2 {
 
     display: inline-flex;
     color: white;
-    font-family: 'Lora', serif;
-    font-weight: bold;
     font-size: 15px;
-    padding: 5px 20px;
     text-align: center;
    /* text-shadow: black 1px 0 5px; */
     text-decoration: none;
@@ -85,13 +82,6 @@ h2 {
     
   }
 
- #nav_element:hover {
-
-  text-decoration: underline;
-
-
-
- } 
 
 
  .map iframe {
@@ -131,7 +121,6 @@ h2 {
     position: relative; 
     margin: 0%;
     border: 0%;
-    padding-left: 45px;
     overflow: hidden;
     background-color: transparent;
       
@@ -142,25 +131,29 @@ h2 {
 
     float: left;
     margin: 0;
-    padding: 10px;
     border: 0;
+    padding-left: 25px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    font-weight: bold;
+
    
 }
 
 .navbar li a  {
-  padding-left: 30px; 
-  padding-right: 30px;
+
   color: white;
   text-decoration: none;
-  font-family: 'Lora', serif;
-  font-style: oblique;
-  font-size: 21px;
+
 }
 
 .navbar li a:hover {
 
   background-color:  rgb(211, 54, 6);
   border-radius: 30%;
+  text-underline-position: below;
+  text-decoration-line: underline;
+
 
 }
 
@@ -183,16 +176,14 @@ h2 {
 
  #Info-text  {
 
-  font-family: 'Lora', serif;
- 
   margin: 300px 150px 300px 150px;
   width: 80%;
   height: auto;
-  font-size: 28px;
   text-align: center;
   color: white; 
   display: inline-flexbox;
-  align-content: center;
+  font-size: 28px;
+  align-content: left;
 
 }
 
@@ -203,9 +194,7 @@ h2 {
   padding-top: 50px;
   padding-bottom: 50px;
   align-content: center;
-  font-family: 'Merriweather Sans', bold;
-
- 
+  font-family: 'Acme', sans-serif;
 
 }
 
@@ -262,7 +251,8 @@ footer {
 .CONTACT h1 {
 
   padding-bottom: 15px;
-  font-family: 'Shanti', sans-serif;
+  font-family: 'Acme', sans-serif;
+  font-size: 25px;
 
 }
 
@@ -306,6 +296,7 @@ footer {
 
   width: 45px;
   height: auto;
+  padding-left: 45px; 
 
 }
 
@@ -319,14 +310,13 @@ footer {
   #logo1 {
 
     height: auto;
-    width: 225px;
+    width: 210px;
   
   }
 
 
   .navbar li a  {
     padding-left: 5px; 
-    padding-right: 5px;
     color: white;
     text-decoration: none;
     font-family: 'Lora', serif;
@@ -336,9 +326,8 @@ footer {
 
 .INFO #Info-text {
 
-  font-size: 10px;
+  font-size: 5px;
   margin: 50px;
-
 
 }
 
@@ -355,27 +344,43 @@ font-size:  35px;
 
 }
 
+
+
 .DESCRIPTION p {
 
-  font-size: 10px;
+  font-size: 5px;
+  text-align: justify;
+  
+}
+
+.CONTACT {
+
+  padding: 10px  7px 10px 7px;
+  
 }
 
 .CONTACT h1 {
 
   padding-bottom: 5px;
-  font-size: 12px;
-  font-family: 'Shanti', sans-serif;
+  font-size: 17px;
+  text-align: left;
+  font-family: 'Acme', sans-serif;
+  
 
 }
 
 .CONTACT p {
   border-right: 0;
-  padding-right: 5px;
+  padding-left: 75px;
   align-content: center;
+
   font-family: 'Meera Inimai', sans-serif;
 }
 
+footer {
 
+  font-size: 10px;
+}
 
 
 } 
@@ -432,9 +437,9 @@ font-size:  35px;
 
 .CONTACT h1 {
 
-  padding-bottom: 10px;
-  font-size: 15px;
-  font-family: 'Shanti', sans-serif;
+  padding-bottom: 8px;
+  font-size: 18px;
+  font-family: 'Acme', sans-serif;
 
 }
 
