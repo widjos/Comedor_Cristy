@@ -489,9 +489,9 @@ font-size:  35px;
 
 .CONTACT p {
   border-right: 0;
-  padding-left: 10px;
+  padding-left: 15px;
   align-content: center;
-
+  text-align: center;
   font-family: 'Meera Inimai', sans-serif;
 }
 
