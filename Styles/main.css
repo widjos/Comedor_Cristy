@@ -2,7 +2,7 @@
 /* Current font families CAVEAT , LOBSTER ,   */
 
 @import url('https://fonts.googleapis.com/css?family=Caveat|Lobster+Two|Lora|Meera+Inimai|Shanti]Merriweather+Sans|Courgette|Dancing+Script&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Acme|Amatic+SC&display=swap');
 
 
 
@@ -74,9 +74,6 @@ h2 {
 
     display: inline-flex;
     color: white;
-    font-family: 'Lora', serif;
-    font-weight: bold;  
-    padding: 5px 20px;
     text-align: center;
    /* text-shadow: black 1px 0 5px; */
     text-decoration: none;
@@ -84,13 +81,6 @@ h2 {
     
   }
 
- #nav_element:hover {
-
-  text-decoration: underline;
-
-
-
- } 
 
 
  .map iframe {
@@ -130,7 +120,6 @@ h2 {
     position: relative; 
     margin: 0%;
     border: 0%;
-    padding-left: 45px;
     overflow: hidden;
     background-color: transparent;
       
@@ -141,26 +130,28 @@ h2 {
 
     float: left;
     margin: 0;
-    padding: 10px;
     border: 0;
+    padding-left: 25px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    font-weight: bold;
 
    
 }
 
 .navbar li a  {
-  padding-left: 30px; 
-  padding-right: 30px;
+
   color: white;
   text-decoration: none;
-  font-family: 'Lora', serif;
-  font-style: oblique;
-  font-size: 18px;
+  
 }
 
 .navbar li a:hover {
 
   background-color:  rgb(211, 54, 6);
   border-radius: 30%;
+  text-decoration-line: underline;
+
 
 }
 
@@ -181,31 +172,27 @@ h2 {
 
 
 
- #Info-text  {
+ .Info-text  {
 
-  font-family: 'Lora', serif;
- 
   margin: 300px 150px 300px 150px;
   width: 80%;
   height: auto;
-  font-size: 28px;
   text-align: center;
   color: white; 
   display: inline-flexbox;
-  align-content: center;
+  font-size: 28px;
+  align-content: left;
 
 }
 
-#Info-item {
+.Info-item {
 
   display: inline-block;
   padding: 30px;
   padding-top: 50px;
   padding-bottom: 50px;
   align-content: center;
-  font-family: 'Merriweather Sans', bold;
-
- 
+  font-family: 'Acme', sans-serif;
 
 }
 
@@ -262,7 +249,8 @@ footer {
 .CONTACT h1 {
 
   padding-bottom: 15px;
-  font-family: 'Shanti', sans-serif;
+  font-family: 'Acme', sans-serif;
+  font-size: 25px;
 
 }
 
@@ -294,7 +282,7 @@ footer {
 
 }
 
-#logo-button {
+#fb-button {
 
   width: 100%;
   height: auto;
@@ -302,92 +290,34 @@ footer {
 
 }
 
+#fb-button:hover {
+  transition:  0.5s;
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+
 #logo-container {
 
   width: 45px;
   height: auto;
+  padding-left: 45px; 
 
 }
 
 
 
 
-/* Display the css when the screen is less than 500px  */ 
-@media (max-width: 500px) 
-{
-
-  #logo1 {
-
-    height: auto;
-    width: 225px;
-  
-  }
-
- 
-
-
-  .navbar li a  {
-    font-size: 12px;
-
-  } 
-
-.INFO #Info-text {
-
-  font-size: 10px;
-  margin: 50px;
-
-
-}
-
-#title 
-{
-font-size:  35px;
-
-}
-  
-.DESCRIPTION div {
-
-  margin: 40px 20px 40px 40px;
-
- 
-}
-
-.DESCRIPTION p {
-
-  font-size: 7px;
-
-}
-
-.CONTACT {
-
-  padding : 70px 60px 90px 60px;
-
-}
-
-.CONTACT h1 {
-
-  padding-bottom: 5px;
-  font-size: 11px;
-  font-family: 'Shanti', sans-serif;
-
-}
-
-.CONTACT p {
-  border-right: 0;
-  padding-right: 5px;
-  align-content: center;
-  font-family: 'Meera Inimai', sans-serif;
-}
-
-
-
-
-} 
 
 /* Display the css when the screen is less than 800px  */
 
 @media (max-width: 800px) 
 {
+
+
+  .navbar {
+
+    padding: 0%;
+  }
 
   #logo1 {
 
@@ -396,14 +326,20 @@ font-size:  35px;
   
   }
 
+  .navbar li {
+    font-family: 'Amatic SC', cursive;
+    font-size: 18px;
+    font-weight: bold;
+  }
 
   .navbar li a  {
     padding-left: 8px; 
     padding-right: 8px;
-    font-size: 14px;
+    color: white;
+    text-decoration: none;
   } 
 
-.INFO #Info-text {
+.INFO .Info-text {
 
   font-size: 20px;
   margin: 70px;
@@ -420,7 +356,9 @@ font-size:  35px;
 .DESCRIPTION div {
 
   margin: 40px 40px 40px 40px;
+ 
 
+ 
 }
 
 .DESCRIPTION p {
@@ -428,6 +366,114 @@ font-size:  35px;
   font-size: 15px;
 }
 
+
+.CONTACT h1 {
+
+  padding-bottom: 8px;
+  font-size: 18px;
+  font-family: 'Acme', sans-serif;
+
+}
+
+.CONTACT p { 
+  border-right: 0;
+  padding-right: 5px;
+  align-content: center;
+  font-family: 'Meera Inimai', sans-serif;
+}
+
+
+}
+
+
+
+/* Display the css when the screen is less than 500px  */
+@media (max-width: 500px) 
+{
+
+ #title {
+
+ display: none;
+
+  }
+
+  .navbar {
+
+    padding: 0%;
+    margin:0%;
+  }
+
+  .navbar ul {
+
+    padding-left: 0px;
+  }
+
+ 
+
+  .navbar li {
+
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 15px;
+  }
+
+
+  .navbar li a  {
+    padding-left: 5px; 
+    color: white;
+    text-decoration: none;
+
+  } 
+
+.INFO .Info-text {
+
+  font-size: 18px;
+  padding-top: 40px;
+  padding-left: 15px; 
+  padding-bottom: 40px;
+  margin: 0px;
+  align-content: center;
+  
+
+
+}
+
+.INFO .Info-text .Info-item {
+
+  padding-left: 5px;
+}
+
+
+
+#title 
+{
+font-size:  35px;
+
+}
+  
+.DESCRIPTION div {
+
+  margin: 40px 20px 40px 20px;
+ 
+
+}
+
+
+
+.DESCRIPTION p {
+
+  font-size: 15px;
+  text-align: justify;
+  
+}
+
+.CONTACT {
+
+  padding: 10px  7px 10px 7px;
+  
+}
 
 .CONTACT {
 
@@ -437,23 +483,26 @@ font-size:  35px;
 
 .CONTACT h1 {
 
-  padding-bottom: 10px;
-  font-size: 13px;
-  font-family: 'Shanti', sans-serif;
+  padding-bottom: 5px;
+  font-size: 17px;
+  text-align: left;
+  font-family: 'Acme', sans-serif;
+  
 
 }
 
-.CONTACT p { 
+.CONTACT p {
   border-right: 0;
-  padding-right: 4px;
+  padding-left: 75px;
   align-content: center;
+
   font-family: 'Meera Inimai', sans-serif;
 }
 
+footer {
 
-
- 
-
+  font-size: 10px;
+}
 
 
 } 
