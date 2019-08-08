@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Acme');
 
 .GALERY
 {
@@ -12,7 +13,7 @@
 
 
 .card-picture {
-
+    overflow: hidden;
     display: block;
     width: 425px;
     margin: 0px 10px 0px 10px;
@@ -21,7 +22,8 @@
     background-color: white;
     border: #ccc solid 1px;
     float: left;
-    border-radius: 10%;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
     -webkit-box-shadow: 3px 0px 13px 0px rgba(50, 50, 50, 0.69);
     -moz-box-shadow:    3px 0px 13px 0px rgba(50, 50, 50, 0.69);
     box-shadow:         3px 0px 13px 0px rgba(50, 50, 50, 0.69);    
@@ -55,7 +57,7 @@
 }
 .linear-container 
 {
-  display: inline-flex;
+  display: flex;
   width: 100%;
   padding-top:  50px;   
   padding-left: 50px;
@@ -86,11 +88,11 @@
 
 }
 
- img {
+.GALERY  .card-picture  img {
 
     width: 98%;
     height: auto;
-    transition: .2s;
+    transition: .5s;
     
 
 
@@ -98,7 +100,7 @@
 
 
 
-img:hover {
+.GALERY  .card-picture img:hover {
 
     transform: scale(1.1);
 
@@ -124,7 +126,23 @@ img:hover {
          
 }
 
+.menu-description
+{
+    background-color: rgb(228, 229, 231);
+    font-family: 'Acme', sans-serif;
+    font-size: 32px;
+    padding-left: 60px;
+    padding-top: 25px;
+}
 
+.menu-description p
+{
+    font-family: 'Acme', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    margin: 0px;
+    padding: 0px;  
+}
 
 
 .botones:hover {
@@ -169,7 +187,23 @@ img:hover {
 }
  
 
+.GALERY  .card-picture  img {
 
+    width: 100%;
+ }
+
+
+ .menu-description
+{
+    font-size: 17px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.menu-description p {
+
+    font-size: 12px;
+}
 
 }
 
