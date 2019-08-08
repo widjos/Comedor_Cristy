@@ -475,11 +475,7 @@ font-size:  35px;
   
 }
 
-.CONTACT {
 
-  padding : 80px 60px 60px 60px;
-
-}
 
 .CONTACT h1 {
 
@@ -493,7 +489,7 @@ font-size:  35px;
 
 .CONTACT p {
   border-right: 0;
-  padding-left: 75px;
+  padding-left: 10px;
   align-content: center;
 
   font-family: 'Meera Inimai', sans-serif;
