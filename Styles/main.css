@@ -74,7 +74,6 @@ h2 {
 
     display: inline-flex;
     color: white;
-    font-size: 15px;
     text-align: center;
    /* text-shadow: black 1px 0 5px; */
     text-decoration: none;
@@ -151,7 +150,6 @@ h2 {
 
   background-color:  rgb(211, 54, 6);
   border-radius: 30%;
-  text-underline-position: below;
   text-decoration-line: underline;
 
 
@@ -174,7 +172,7 @@ h2 {
 
 
 
- #Info-text  {
+ .Info-text  {
 
   margin: 300px 150px 300px 150px;
   width: 80%;
@@ -187,7 +185,7 @@ h2 {
 
 }
 
-#Info-item {
+.Info-item {
 
   display: inline-block;
   padding: 30px;
@@ -303,92 +301,17 @@ footer {
 
 
 
-/* Display the css when the screen is less than 500px  */
-@media (max-width: 500px) 
-{
-
-  #logo1 {
-
-    height: auto;
-    width: 210px;
-  
-  }
-
-
-  .navbar li a  {
-    padding-left: 5px; 
-    color: white;
-    text-decoration: none;
-    font-family: 'Lora', serif;
-    font-style: oblique;
-    font-size: 15px;
-  } 
-
-.INFO #Info-text {
-
-  font-size: 5px;
-  margin: 50px;
-
-}
-
-#title 
-{
-font-size:  35px;
-
-}
-  
-.DESCRIPTION div {
-
-  margin: 40px 20px 40px 20px;
- 
-
-}
-
-
-
-.DESCRIPTION p {
-
-  font-size: 5px;
-  text-align: justify;
-  
-}
-
-.CONTACT {
-
-  padding: 10px  7px 10px 7px;
-  
-}
-
-.CONTACT h1 {
-
-  padding-bottom: 5px;
-  font-size: 17px;
-  text-align: left;
-  font-family: 'Acme', sans-serif;
-  
-
-}
-
-.CONTACT p {
-  border-right: 0;
-  padding-left: 75px;
-  align-content: center;
-
-  font-family: 'Meera Inimai', sans-serif;
-}
-
-footer {
-
-  font-size: 10px;
-}
-
-
-} 
 
 /* Display the css when the screen is less than 800px  */
 
 @media (max-width: 800px) 
 {
+
+
+  .navbar {
+
+    padding: 0%;
+  }
 
   #logo1 {
 
@@ -397,18 +320,20 @@ footer {
   
   }
 
+  .navbar li {
+    font-family: 'Amatic SC', cursive;
+    font-size: 18px;
+    font-weight: bold;
+  }
 
   .navbar li a  {
     padding-left: 8px; 
     padding-right: 8px;
     color: white;
     text-decoration: none;
-    font-family: 'Lora', serif;
-    font-style: oblique;
-    font-size: 18px;
   } 
 
-.INFO #Info-text {
+.INFO .Info-text {
 
   font-size: 20px;
   margin: 70px;
@@ -451,9 +376,120 @@ font-size:  35px;
 }
 
 
+}
+
+
+
+/* Display the css when the screen is less than 500px  */
+@media (max-width: 500px) 
+{
+
+ #title {
+
+ display: none;
+
+  }
+
+  .navbar {
+
+    padding: 0%;
+    margin:0%;
+  }
+
+  .navbar ul {
+
+    padding-left: 0px;
+  }
 
  
 
+  .navbar li {
+
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 15px;
+  }
+
+
+  .navbar li a  {
+    padding-left: 5px; 
+    color: white;
+    text-decoration: none;
+
+  } 
+
+.INFO .Info-text {
+
+  font-size: 18px;
+  padding-top: 40px;
+  padding-left: 15px; 
+  padding-bottom: 40px;
+  margin: 0px;
+  align-content: center;
+  
+
+
+}
+
+.INFO .Info-text .Info-item {
+
+  padding-left: 5px;
+}
+
+
+
+#title 
+{
+font-size:  35px;
+
+}
+  
+.DESCRIPTION div {
+
+  margin: 40px 20px 40px 20px;
+ 
+
+}
+
+
+
+.DESCRIPTION p {
+
+  font-size: 15px;
+  text-align: justify;
+  
+}
+
+.CONTACT {
+
+  padding: 10px  7px 10px 7px;
+  
+}
+
+.CONTACT h1 {
+
+  padding-bottom: 5px;
+  font-size: 17px;
+  text-align: left;
+  font-family: 'Acme', sans-serif;
+  
+
+}
+
+.CONTACT p {
+  border-right: 0;
+  padding-left: 75px;
+  align-content: center;
+
+  font-family: 'Meera Inimai', sans-serif;
+}
+
+footer {
+
+  font-size: 10px;
+}
 
 
 } 
